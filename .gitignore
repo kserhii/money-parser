@@ -1,0 +1,12 @@
+# compiled files
+__pycache__/
+*.py[cod]
+
+# ide files
+.idea/
+
+# virtualenv
+venv/
+
+# unittest / coverage
+.cache/
