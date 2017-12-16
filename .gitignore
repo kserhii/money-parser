@@ -10,3 +10,15 @@ venv/
 
 # unittest / coverage
 .cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg

@@ -1,0 +1,4 @@
+[run]
+branch = True
+source = money_parser, tests
+omit = site-packages
