@@ -1,8 +1,9 @@
 import re
+import decimal
 
 __version__ = '0.0.1'
 
-__all__ = ('price_str',)
+__all__ = ('price_str', 'price_dec',)
 
 
 _CLEANED_PRICE_RE = re.compile('[+-]?(?:\d{1,3}[.,]?)+')
@@ -98,3 +99,29 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
         price = ''.join((price, dec_point, fraction))
 
     return price
+
+
+def price_dec(raw_price, default=_not_defined):
+    """Price decimal value from raw string.
+
+    Extract price value from input raw string and
+    present as Decimal number.
+
+    If raw price does not contain valid price value or contains
+    more than one price value, then return default value.
+    If default value not set, then raise ValueError.
+
+    :param str raw_price: string that contains price value.
+    :param default: value that will be returned if raw price not valid.
+    :return: Decimal price value.
+    :raise ValueError: error if raw price not valid and default value not set.
+    """
+    try:
+        price = price_str(raw_price)
+        return decimal.Decimal(price)
+
+    except ValueError as err:
+        if default == _not_defined:
+            raise err
+
+    return default

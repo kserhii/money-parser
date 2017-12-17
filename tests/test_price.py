@@ -2,7 +2,7 @@ from decimal import Decimal
 
 import pytest
 
-from money_parser import price_str
+from money_parser import price_str, price_dec
 
 
 price_str_test_cases = [
@@ -140,3 +140,21 @@ def test_price_str_error(wrong_raw_price):
 def test_price_str_dec_point():
     assert '9.99' == price_str('9,99')
     assert '9|99' == price_str('9,99', dec_point='|')
+
+
+def test_price_dec_value():
+    assert Decimal('1') == price_dec('+1')
+    assert Decimal('-10.99') == price_dec(': -10.99$')
+
+
+def test_price_dec_default():
+    assert Decimal('0') == price_dec('', default=Decimal('0'))
+    assert 0 == price_dec('1..10', default=0)
+    assert price_dec('410.5 - 555', default=None) is None
+
+
+def test_price_dec_error():
+    with pytest.raises(ValueError):
+        price_dec('')
+    with pytest.raises(ValueError):
+        price_dec('7 | 128')

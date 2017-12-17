@@ -42,20 +42,20 @@ Documentation
 
 .. py:function:: price_str(raw_price, [default=<not_defined>], [dec_point='.'])
 
-   Search and clean price value.
+    Search and clean price value.
 
-   Convert raw price string presented in any localization
-   as a valid number string with an optional decimal point.
+    Convert raw price string presented in any localization
+    as a valid number string with an optional decimal point.
 
-   If raw price does not contain valid price value or contains
-   more than one price value, then return default value.
-   If default value not set, then raise ValueError.
+    If raw price does not contain valid price value or contains
+    more than one price value, then return default value.
+    If default value not set, then raise ValueError.
 
-   :param str raw_price: string that contains price value.
-   :param default: value that will be returned if raw price not valid.
-   :param dec_point: symbol that separate integer and fractional parts.
-   :return: cleaned price string or default value.
-   :raise ValueError: error if raw price not valid and default value not set.
+    :param str raw_price: string that contains price value.
+    :param default: value that will be returned if raw price not valid.
+    :param dec_point: symbol that separate integer and fractional parts.
+    :return: cleaned price string or default value.
+    :raise ValueError: error if raw price not valid and default value not set.
 
 ::
 
@@ -77,6 +77,10 @@ Documentation
     '0'
     >>> price_str(42.333, default=None) is None
     True
+    >>> price_str(None)
+    Traceback (most recent call last):
+      ...
+    ValueError: Wrong raw price type "<class 'NoneType'>" (expected type "str")
     >>> price_str('')
     Traceback (most recent call last):
       ...
@@ -85,7 +89,45 @@ Documentation
     Traceback (most recent call last):
       ...
     ValueError: Raw price value "1..2" contains more than one price value
-    >>> price_str('2+2')
+
+
+.. py:function:: price_dec(raw_price, [default=<not_defined>])
+
+    Price decimal value from raw string.
+
+    Extract price value from input raw string and
+    present as Decimal number. Uses a price_str function for price parsing.
+
+    If raw price does not contain valid price value or contains
+    more than one price value, then return default value.
+    If default value not set, then raise ValueError.
+
+    :param str raw_price: string that contains price value.
+    :param default: value that will be returned if raw price not valid.
+    :return: Decimal price value.
+    :raise ValueError: error if raw price not valid and default value not set.
+
+::
+
+    >>> price_dec('+12.007')
+    Decimal('12007')
+    >>> price_dec(': -10.99$')
+    Decimal('-10.99')
+    >>> price_dec('', default=Decimal('0'))
+    Decimal('0')
+    >>> price_dec('1..10', default=0)
+    0
+    >>> price_dec('410.5 - 555', default=None) is None
+    True
+    >>> price_dec(42.3)
+    Traceback (most recent call last):
+      ...
+    ValueError: Wrong raw price type "<class 'float'>" (expected type "str")
+    >>> price_dec('free')
+    Traceback (most recent call last):
+      ...
+    ValueError: Raw price value "free" does not contain valid price digits
+    >>> price_dec('2+2')
     Traceback (most recent call last):
       ...
     ValueError: Raw price value "2+2" contains more than one price value
