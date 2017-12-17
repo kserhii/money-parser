@@ -11,6 +11,12 @@ There is a lot of different price and currency formats that present values with 
 This library may help you to parse such data.
 
 
+Limitation
+----------
+
+ - currency with 3 numbers after decimal point (e.g. KWD, see `ISO 4217`_)
+
+
 Introduction
 ------------
 
@@ -97,6 +103,12 @@ Also available tests with coverage::
     $ make cov
 
 
+Source code
+-----------
+
+The project is hosted on GitHub_
+
+
 Authors and License
 -------------------
 
@@ -105,4 +117,5 @@ The ``money-parser`` package is written by Serhii Kostel.
 It's *Apache 2* licensed and freely available.
 
 
+.. _`ISO 4217`: https://en.wikipedia.org/wiki/ISO_4217
 .. _GitHub: https://github.com/kserhii/money-parser
