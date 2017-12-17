@@ -25,8 +25,8 @@ Extracting price from raw ``str``::
    >>> from money_parser import price_str
    >>> price_str('₹1,50,087.99 \n')
    '150087.99'
-    >>> price_dec('+12.007')
-    Decimal('12007')
+   >>> price_dec('+12.007')
+   Decimal('12007')
 
 Installation
 ------------
