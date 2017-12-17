@@ -23,7 +23,7 @@ changes_file = here / 'CHANGES.rst'
 
 def read(file):
     with file.open(encoding='utf8') as f:
-        return f.read()
+        return f.read().strip()
 
 
 try:
@@ -32,7 +32,7 @@ except IndexError:
     raise RuntimeError('Unable to determine version.')
 
 
-long_description = '\n{}\n\n{}'.format(read(readme_file), read(changes_file))
+long_description = read(readme_file) + '\n\n' + read(changes_file)
 
 
 needs_pytest = {'pytest', 'test', 'ptr'}.intersection(sys.argv)
