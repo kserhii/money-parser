@@ -39,7 +39,7 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
 
     :param str raw_price: string that contains price value.
     :param default: value that will be returned if raw price not valid.
-    :param dec_point: symbol that separate integer and fractional parts.
+    :param str dec_point: symbol that separate integer and fractional parts.
     :return: cleaned price string.
     :raise ValueError: error if raw price not valid and default value not set.
     """

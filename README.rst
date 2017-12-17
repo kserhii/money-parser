@@ -1,7 +1,6 @@
 Money Parser
 ============
 
-
 Description
 -----------
 
@@ -10,12 +9,10 @@ It provides methods to extract price and currency information from the raw strin
 There is a lot of different price and currency formats that present values with separators, spacing etc.
 This library may help you to parse such data.
 
-
 Limitation
 ----------
 
  - currency with 3 numbers after decimal point (e.g. KWD, see `ISO 4217`_)
-
 
 Introduction
 ------------
@@ -37,26 +34,25 @@ Installation
 
 The library requires Python >= 3.4
 
-
 Documentation
 ------------------
 
-.. py:function:: price_str(raw_price, [default=<not_defined>], [dec_point='.'])
+**price_str** (raw_price, [default=<not_defined>], [dec_point='.'])
 
-    Search and clean price value.
-
-    Convert raw price string presented in any localization
-    as a valid number string with an optional decimal point.
-
-    If raw price does not contain valid price value or contains
-    more than one price value, then return default value.
-    If default value not set, then raise ValueError.
-
-    :param str raw_price: string that contains price value.
-    :param default: value that will be returned if raw price not valid.
-    :param dec_point: symbol that separate integer and fractional parts.
-    :return: cleaned price string or default value.
-    :raise ValueError: error if raw price not valid and default value not set.
+ | Search and clean price value.
+ |
+ | Convert raw price string presented in any localization
+ | as a valid number string with an optional decimal point.
+ |
+ | If raw price does not contain valid price value or contains
+ | more than one price value, then return default value.
+ | If default value not set, then raise ValueError.
+ |
+ | *:param* str **raw_price:** string that contains price value.
+ | *:param* **default:** value that will be returned if raw price not valid.
+ | *:param* str **dec_point:** symbol that separate integer and fractional parts.
+ | *:return:* cleaned price string or default value.
+ | *:raise* ValueError: error if raw price not valid and default value not set.
 
 ::
 
@@ -92,21 +88,21 @@ Documentation
     ValueError: Raw price value "1..2" contains more than one price value
 
 
-.. py:function:: price_dec(raw_price, [default=<not_defined>])
+**price_dec** (raw_price, [default=<not_defined>])
 
-    Price decimal value from raw string.
+ | Price decimal value from raw string.
+ |
+ | Extract price value from input raw string and
+ | present as Decimal number. Uses a price_str function for price parsing.
 
-    Extract price value from input raw string and
-    present as Decimal number. Uses a price_str function for price parsing.
-
-    If raw price does not contain valid price value or contains
-    more than one price value, then return default value.
-    If default value not set, then raise ValueError.
-
-    :param str raw_price: string that contains price value.
-    :param default: value that will be returned if raw price not valid.
-    :return: Decimal price value.
-    :raise ValueError: error if raw price not valid and default value not set.
+ | If raw price does not contain valid price value or contains
+ | more than one price value, then return default value.
+ | If default value not set, then raise ValueError.
+ |
+ | *:param* str **raw_price:** string that contains price value.
+ | *:param* **default:** value that will be returned if raw price not valid.
+ | *:return:* Decimal price value.
+ | *:raise* ValueError: error if raw price not valid and default value not set.
 
 ::
 
@@ -133,9 +129,8 @@ Documentation
       ...
     ValueError: Raw price value "2+2" contains more than one price value
 
-
 Run Tests
-------
+---------
 
 Project has tests::
 
@@ -145,12 +140,10 @@ Also available tests with coverage::
 
     $ make cov
 
-
 Source code
 -----------
 
 The project is hosted on GitHub_
-
 
 Authors and License
 -------------------
