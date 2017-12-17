@@ -1,6 +1,12 @@
 Money Parser
 ============
 
+.. image:: https://badge.fury.io/py/money-parser.svg
+    :target: https://badge.fury.io/py/money-parser
+
+.. image:: https://img.shields.io/pypi/pyversions/money-parser.svg
+    :target: https://pypi.python.org/pypi/money-parser
+
 Description
 -----------
 
