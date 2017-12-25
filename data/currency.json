@@ -1,0 +1,1270 @@
+{
+   "AED": {
+      "decimals": 2,
+      "symbols": [
+         "AED",
+         "\u062f.\u0625.\u200f"
+      ]
+   },
+   "AFN": {
+      "decimals": 0,
+      "symbols": [
+         "AFN",
+         "\u060b"
+      ]
+   },
+   "ALL": {
+      "decimals": 0,
+      "symbols": [
+         "ALL",
+         "Lek\u00eb"
+      ]
+   },
+   "AMD": {
+      "decimals": 0,
+      "symbols": [
+         "AMD",
+         "\u0564\u0580.",
+         "\u058f"
+      ]
+   },
+   "ANG": {
+      "decimals": 2,
+      "symbols": [
+         "ANG",
+         "NAf",
+         "NAf."
+      ]
+   },
+   "AOA": {
+      "decimals": 2,
+      "symbols": [
+         "AOA",
+         "Kz"
+      ]
+   },
+   "ARS": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$AR",
+         "AR$",
+         "ARS"
+      ]
+   },
+   "AUD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$A",
+         "$AU",
+         "A$",
+         "AU$",
+         "AUD",
+         "AUD$"
+      ]
+   },
+   "AWG": {
+      "decimals": 2,
+      "symbols": [
+         "AWG",
+         "Afl",
+         "Afl."
+      ]
+   },
+   "AZN": {
+      "decimals": 2,
+      "symbols": [
+         "AZN",
+         "\u043c\u0430\u043d.",
+         "\u20bc"
+      ]
+   },
+   "BAM": {
+      "decimals": 2,
+      "symbols": [
+         "BAM",
+         "KM",
+         "\u041a\u041c"
+      ]
+   },
+   "BBD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "BB$",
+         "BBD",
+         "Bds$"
+      ]
+   },
+   "BDT": {
+      "decimals": 2,
+      "symbols": [
+         "BDT",
+         "TK",
+         "Tk",
+         "\u09f3"
+      ]
+   },
+   "BGN": {
+      "decimals": 2,
+      "symbols": [
+         "BGN",
+         "\u043b\u0432."
+      ]
+   },
+   "BHD": {
+      "decimals": 3,
+      "symbols": [
+         "BHD",
+         "\u062f.\u0628.\u200f"
+      ]
+   },
+   "BIF": {
+      "decimals": 0,
+      "symbols": [
+         "BIF",
+         "FBu"
+      ]
+   },
+   "BMD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$BM",
+         "BD$",
+         "BM$",
+         "BMD"
+      ]
+   },
+   "BND": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$BN",
+         "BN$",
+         "BND"
+      ]
+   },
+   "BOB": {
+      "decimals": 2,
+      "symbols": [
+         "$b",
+         "BOB",
+         "Bs"
+      ]
+   },
+   "BRL": {
+      "decimals": 2,
+      "symbols": [
+         "BR$",
+         "BRL",
+         "R$"
+      ]
+   },
+   "BSD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$BS",
+         "B$",
+         "BS$",
+         "BSD"
+      ]
+   },
+   "BTN": {
+      "decimals": 2,
+      "symbols": [
+         "BTN",
+         "Nu."
+      ]
+   },
+   "BWP": {
+      "decimals": 2,
+      "symbols": [
+         "BWP",
+         "P"
+      ]
+   },
+   "BYN": {
+      "decimals": 2,
+      "symbols": [
+         "BYN",
+         "Br",
+         "P.",
+         "p.",
+         "r.",
+         "\u0440."
+      ]
+   },
+   "BZD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$BZ",
+         "BZ$",
+         "BZD"
+      ]
+   },
+   "CAD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$CA",
+         "C$",
+         "CA$",
+         "CAD"
+      ]
+   },
+   "CDF": {
+      "decimals": 2,
+      "symbols": [
+         "CDF",
+         "FC"
+      ]
+   },
+   "CHF": {
+      "decimals": 2,
+      "symbols": [
+         "CHF",
+         "Fr."
+      ]
+   },
+   "CLP": {
+      "decimals": 0,
+      "symbols": [
+         "$",
+         "$CL",
+         "CL$",
+         "CLP"
+      ]
+   },
+   "CNY": {
+      "decimals": 2,
+      "symbols": [
+         "CNY",
+         "CN\u00a5",
+         "\u00a5",
+         "\u00a5CN",
+         "\u200eCN\u00a5\u200e",
+         "\u5143",
+         "\uffe5"
+      ]
+   },
+   "COP": {
+      "decimals": 0,
+      "symbols": [
+         "$",
+         "$CO",
+         "CO$",
+         "COP"
+      ]
+   },
+   "CRC": {
+      "decimals": 0,
+      "symbols": [
+         "CRC",
+         "\u20a1"
+      ]
+   },
+   "CUC": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "CUC",
+         "CUC$",
+         "Cub$"
+      ]
+   },
+   "CUP": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$MN",
+         "CU$",
+         "CUP",
+         "\u20b1"
+      ]
+   },
+   "CVE": {
+      "decimals": 2,
+      "symbols": [
+         "CVE",
+         "\u200b"
+      ]
+   },
+   "CZK": {
+      "decimals": 0,
+      "symbols": [
+         "CZK",
+         "K\u010d",
+         "\u041a\u0447"
+      ]
+   },
+   "DJF": {
+      "decimals": 0,
+      "symbols": [
+         "DJF",
+         "Fdj"
+      ]
+   },
+   "DKK": {
+      "decimals": 2,
+      "symbols": [
+         "DKK",
+         "Dkr",
+         "Kr",
+         "kr",
+         "kr."
+      ]
+   },
+   "DOP": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "DO$",
+         "DOP",
+         "RD$"
+      ]
+   },
+   "DZD": {
+      "decimals": 2,
+      "symbols": [
+         "DA",
+         "DZD",
+         "\u062f.\u062c.\u200f"
+      ]
+   },
+   "EGP": {
+      "decimals": 2,
+      "symbols": [
+         "EGP",
+         "EG\u00a3",
+         "E\u00a3",
+         "LE",
+         "\u00a3",
+         "\u00a3 E",
+         "\u00a3E",
+         "\u062c.\u0645.\u200f"
+      ]
+   },
+   "ERN": {
+      "decimals": 2,
+      "symbols": [
+         "ERN",
+         "Nfk"
+      ]
+   },
+   "ETB": {
+      "decimals": 2,
+      "symbols": [
+         "Br",
+         "ETB",
+         "\u1265\u122d"
+      ]
+   },
+   "EUR": {
+      "decimals": 2,
+      "symbols": [
+         "EUR",
+         "\u20ac"
+      ]
+   },
+   "FJD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$FJ",
+         "FJ$",
+         "FJD"
+      ]
+   },
+   "FKP": {
+      "decimals": 2,
+      "symbols": [
+         "FKP",
+         "FK\u00a3",
+         "Fl\u00a3",
+         "\u00a3",
+         "\u00a3FK"
+      ]
+   },
+   "GBP": {
+      "decimals": 2,
+      "symbols": [
+         "GBP",
+         "GB\u00a3",
+         "UK\u00a3",
+         "\u00a3",
+         "\u00a3 RU",
+         "\u00a3GB"
+      ]
+   },
+   "GEL": {
+      "decimals": 2,
+      "symbols": [
+         "GEL",
+         "[\u20be]",
+         "\u0ea5\u0eb2\u0ea3\u0eb5",
+         "\u10da",
+         "\u20be"
+      ]
+   },
+   "GHS": {
+      "decimals": 2,
+      "symbols": [
+         "GHS",
+         "GH\u20b5"
+      ]
+   },
+   "GIP": {
+      "decimals": 2,
+      "symbols": [
+         "GIP",
+         "\u00a3",
+         "\u00a3GI"
+      ]
+   },
+   "GMD": {
+      "decimals": 2,
+      "symbols": [
+         "D",
+         "GMD"
+      ]
+   },
+   "GNF": {
+      "decimals": 0,
+      "symbols": [
+         "F.G.",
+         "FG",
+         "GNF"
+      ]
+   },
+   "GTQ": {
+      "decimals": 2,
+      "symbols": [
+         "GTQ",
+         "Q"
+      ]
+   },
+   "GYD": {
+      "decimals": 0,
+      "symbols": [
+         "$",
+         "G$",
+         "GY$",
+         "GYD"
+      ]
+   },
+   "HKD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$ HK",
+         "$HK",
+         "HK$",
+         "HKD"
+      ]
+   },
+   "HNL": {
+      "decimals": 2,
+      "symbols": [
+         "HNL",
+         "L"
+      ]
+   },
+   "HRK": {
+      "decimals": 2,
+      "symbols": [
+         "HRK",
+         "Kn",
+         "kn"
+      ]
+   },
+   "HTG": {
+      "decimals": 2,
+      "symbols": [
+         "G",
+         "HTG"
+      ]
+   },
+   "HUF": {
+      "decimals": 0,
+      "symbols": [
+         "Ft",
+         "HUF"
+      ]
+   },
+   "IDR": {
+      "decimals": 0,
+      "symbols": [
+         "IDR",
+         "Rp"
+      ]
+   },
+   "ILS": {
+      "decimals": 2,
+      "symbols": [
+         "ILS",
+         "NIS",
+         "\u20aa"
+      ]
+   },
+   "INR": {
+      "decimals": 2,
+      "symbols": [
+         "INR",
+         "Rs",
+         "\u20b9"
+      ]
+   },
+   "IQD": {
+      "decimals": 0,
+      "symbols": [
+         "IQD",
+         "\u062f.\u0639.\u200f"
+      ]
+   },
+   "IRR": {
+      "decimals": 0,
+      "symbols": [
+         "IRR",
+         "\u0631.\u0625.",
+         "\u0631\u06cc\u0627\u0644"
+      ]
+   },
+   "ISK": {
+      "decimals": 0,
+      "symbols": [
+         "ISK",
+         "Ikr",
+         "Kr",
+         "kr",
+         "kr.",
+         "\u00cdkr"
+      ]
+   },
+   "JMD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "J$",
+         "JM$",
+         "JMD"
+      ]
+   },
+   "JOD": {
+      "decimals": 3,
+      "symbols": [
+         "JOD",
+         "\u062f.\u0623.\u200f"
+      ]
+   },
+   "JPY": {
+      "decimals": 0,
+      "symbols": [
+         "JPY",
+         "JP\u00a5",
+         "\u00a5",
+         "\uffe5"
+      ]
+   },
+   "KES": {
+      "decimals": 2,
+      "symbols": [
+         "KES",
+         "Ksh"
+      ]
+   },
+   "KGS": {
+      "decimals": 2,
+      "symbols": [
+         "KGS",
+         "\u0441\u043e\u043c"
+      ]
+   },
+   "KHR": {
+      "decimals": 2,
+      "symbols": [
+         "KHR",
+         "\u17db"
+      ]
+   },
+   "KMF": {
+      "decimals": 0,
+      "symbols": [
+         "CF",
+         "FC",
+         "KMF"
+      ]
+   },
+   "KPW": {
+      "decimals": 0,
+      "symbols": [
+         "KPW",
+         "\u20a9"
+      ]
+   },
+   "KRW": {
+      "decimals": 0,
+      "symbols": [
+         "KRW",
+         "KR\u20a9",
+         "\u20a9",
+         "\uffe6"
+      ]
+   },
+   "KWD": {
+      "decimals": 3,
+      "symbols": [
+         "KWD",
+         "\u062f.\u0643.\u200f"
+      ]
+   },
+   "KYD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "CI$",
+         "KY$",
+         "KYD"
+      ]
+   },
+   "KZT": {
+      "decimals": 2,
+      "symbols": [
+         "KZT",
+         "\u20b8"
+      ]
+   },
+   "LAK": {
+      "decimals": 0,
+      "symbols": [
+         "LAK",
+         "\u20ad"
+      ]
+   },
+   "LBP": {
+      "decimals": 0,
+      "symbols": [
+         "LBP",
+         "L\u00a3",
+         "\u00a3L",
+         "\u00a3LB",
+         "\u0644.\u0644.\u200f"
+      ]
+   },
+   "LKR": {
+      "decimals": 2,
+      "symbols": [
+         "LKR",
+         "Rs",
+         "Rs.",
+         "\u0dbb\u0dd4."
+      ]
+   },
+   "LRD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "L$",
+         "LRD"
+      ]
+   },
+   "LSL": {
+      "decimals": 2,
+      "symbols": [
+         "LSL",
+         "lLS"
+      ]
+   },
+   "LYD": {
+      "decimals": 3,
+      "symbols": [
+         "LYD",
+         "\u062f.\u0644.\u200f"
+      ]
+   },
+   "MAD": {
+      "decimals": 2,
+      "symbols": [
+         "MAD",
+         "\u062f.\u0645.\u200f"
+      ]
+   },
+   "MDL": {
+      "decimals": 2,
+      "symbols": [
+         "L",
+         "MDL"
+      ]
+   },
+   "MGA": {
+      "decimals": 0,
+      "symbols": [
+         "Ar",
+         "MGA"
+      ]
+   },
+   "MKD": {
+      "decimals": 2,
+      "symbols": [
+         "MKD",
+         "den",
+         "\u0434\u0435\u043d"
+      ]
+   },
+   "MMK": {
+      "decimals": 0,
+      "symbols": [
+         "K",
+         "MMK"
+      ]
+   },
+   "MNT": {
+      "decimals": 0,
+      "symbols": [
+         "MNT",
+         "\u20ae"
+      ]
+   },
+   "MOP": {
+      "decimals": 2,
+      "symbols": [
+         "MOP",
+         "MOP$"
+      ]
+   },
+   "MRO": {
+      "decimals": 0,
+      "symbols": [
+         "MRO",
+         "UM",
+         "\u0623.\u0645.\u200f"
+      ]
+   },
+   "MUR": {
+      "decimals": 0,
+      "symbols": [
+         "MUR",
+         "Rs",
+         "\u0ab0\u0ac2."
+      ]
+   },
+   "MVR": {
+      "decimals": 2,
+      "symbols": [
+         "MVR"
+      ]
+   },
+   "MWK": {
+      "decimals": 2,
+      "symbols": [
+         "MK",
+         "MWK"
+      ]
+   },
+   "MXN": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$MX",
+         "MX$",
+         "MXN"
+      ]
+   },
+   "MYR": {
+      "decimals": 2,
+      "symbols": [
+         "MYR",
+         "RM"
+      ]
+   },
+   "MZN": {
+      "decimals": 2,
+      "symbols": [
+         "MTn",
+         "MZN"
+      ]
+   },
+   "NAD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$NA",
+         "N$",
+         "NAD"
+      ]
+   },
+   "NGN": {
+      "decimals": 2,
+      "symbols": [
+         "NGN",
+         "\u20a6"
+      ]
+   },
+   "NIO": {
+      "decimals": 2,
+      "symbols": [
+         "$C",
+         "C$",
+         "NIO"
+      ]
+   },
+   "NOK": {
+      "decimals": 0,
+      "symbols": [
+         "Kr",
+         "NKr",
+         "NOK",
+         "Nkr",
+         "kr",
+         "kr."
+      ]
+   },
+   "NPR": {
+      "decimals": 2,
+      "symbols": [
+         "NPR",
+         "Rs",
+         "\u0928\u0947\u0930\u0942",
+         "\u0930\u0942"
+      ]
+   },
+   "NZD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$ ZN",
+         "$NZ",
+         "NZ$",
+         "NZD",
+         "NZD$"
+      ]
+   },
+   "OMR": {
+      "decimals": 3,
+      "symbols": [
+         "OMR",
+         "\u0631.\u0639.\u200f"
+      ]
+   },
+   "PAB": {
+      "decimals": 2,
+      "symbols": [
+         "B/.",
+         "PAB"
+      ]
+   },
+   "PEN": {
+      "decimals": 2,
+      "symbols": [
+         "PEN",
+         "S/"
+      ]
+   },
+   "PGK": {
+      "decimals": 2,
+      "symbols": [
+         "K",
+         "PGK"
+      ]
+   },
+   "PHP": {
+      "decimals": 2,
+      "symbols": [
+         "PHP",
+         "\u20b1"
+      ]
+   },
+   "PKR": {
+      "decimals": 0,
+      "symbols": [
+         "PKR",
+         "Rs",
+         "\u0631"
+      ]
+   },
+   "PLN": {
+      "decimals": 2,
+      "symbols": [
+         "PLN",
+         "Z\u0142",
+         "zl",
+         "z\u0142",
+         "\u0437\u043b"
+      ]
+   },
+   "PYG": {
+      "decimals": 0,
+      "symbols": [
+         "Gs",
+         "Gs.",
+         "PYG",
+         "\u20b2"
+      ]
+   },
+   "QAR": {
+      "decimals": 2,
+      "symbols": [
+         "QAR",
+         "\u0631.\u0642.\u200f"
+      ]
+   },
+   "RON": {
+      "decimals": 2,
+      "symbols": [
+         "L",
+         "RON",
+         "lei",
+         "lej",
+         "leu",
+         "ley",
+         "\u043b\u0435\u0439",
+         "\u0932\u0947\u0908",
+         "\u0cb2\u0cc0",
+         "\u30ec\u30a4"
+      ]
+   },
+   "RSD": {
+      "decimals": 0,
+      "symbols": [
+         "RSD",
+         "din.",
+         "\u0434\u0438\u043d."
+      ]
+   },
+   "RUB": {
+      "decimals": 2,
+      "symbols": [
+         "RUB",
+         "rb",
+         "\u0440\u0443\u0431",
+         "\u0440\u0443\u0431.",
+         "\u20bd"
+      ]
+   },
+   "RWF": {
+      "decimals": 0,
+      "symbols": [
+         "F.Rw",
+         "FR",
+         "RF",
+         "RWF"
+      ]
+   },
+   "SAR": {
+      "decimals": 2,
+      "symbols": [
+         "SAR",
+         "\u0631.\u0633.\u200f"
+      ]
+   },
+   "SBD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$SB",
+         "SB$",
+         "SBD",
+         "SI$"
+      ]
+   },
+   "SCR": {
+      "decimals": 2,
+      "symbols": [
+         "Rs",
+         "SCR",
+         "SR"
+      ]
+   },
+   "SDG": {
+      "decimals": 2,
+      "symbols": [
+         "SDG",
+         "\u062c.\u0633."
+      ]
+   },
+   "SEK": {
+      "decimals": 0,
+      "symbols": [
+         "Kr",
+         "SEK",
+         "Skr",
+         "kr",
+         "kr.",
+         "\u043a\u0440"
+      ]
+   },
+   "SGD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$SG",
+         "S$",
+         "SGD"
+      ]
+   },
+   "SHP": {
+      "decimals": 2,
+      "symbols": [
+         "SHP",
+         "\u00a3"
+      ]
+   },
+   "SLL": {
+      "decimals": 0,
+      "symbols": [
+         "Le",
+         "SLL"
+      ]
+   },
+   "SOS": {
+      "decimals": 0,
+      "symbols": [
+         "S",
+         "SOS"
+      ]
+   },
+   "SRD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$SR",
+         "SR$",
+         "SRD"
+      ]
+   },
+   "SSP": {
+      "decimals": 2,
+      "symbols": [
+         "SD\u00a3",
+         "SSP",
+         "\u00a3"
+      ]
+   },
+   "STN": {
+      "decimals": 2,
+      "symbols": []
+   },
+   "SYP": {
+      "decimals": 0,
+      "symbols": [
+         "LS",
+         "SYP",
+         "S\u00a3",
+         "\u00a3",
+         "\u0644.\u0633.\u200f"
+      ]
+   },
+   "SZL": {
+      "decimals": 2,
+      "symbols": [
+         "E",
+         "SZL"
+      ]
+   },
+   "THB": {
+      "decimals": 2,
+      "symbols": [
+         "THB",
+         "TH\u0e3f",
+         "\u0e3f"
+      ]
+   },
+   "TJS": {
+      "decimals": 2,
+      "symbols": [
+         "TJS",
+         "\u0441\u043e\u043c."
+      ]
+   },
+   "TMT": {
+      "decimals": 2,
+      "symbols": [
+         "TMT",
+         "\u0422\u041c\u0422"
+      ]
+   },
+   "TND": {
+      "decimals": 3,
+      "symbols": [
+         "DT",
+         "TND",
+         "\u062f.\u062a.\u200f"
+      ]
+   },
+   "TOP": {
+      "decimals": 2,
+      "symbols": [
+         "$ T",
+         "T$",
+         "TOP"
+      ]
+   },
+   "TRY": {
+      "decimals": 2,
+      "symbols": [
+         "LT",
+         "TL",
+         "TRY",
+         "\u0422\u043b",
+         "\u20ba"
+      ]
+   },
+   "TTD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$TT",
+         "TT$",
+         "TTD"
+      ]
+   },
+   "TWD": {
+      "decimals": 0,
+      "symbols": [
+         "$",
+         "NT$",
+         "TWD"
+      ]
+   },
+   "TZS": {
+      "decimals": 0,
+      "symbols": [
+         "TSh",
+         "TZS"
+      ]
+   },
+   "UAH": {
+      "decimals": 2,
+      "symbols": [
+         "UAH",
+         "\u0433\u0440\u043d.",
+         "\u20b4"
+      ]
+   },
+   "UGX": {
+      "decimals": 0,
+      "symbols": [
+         "UGX",
+         "USh"
+      ]
+   },
+   "USD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$ SU",
+         "$US",
+         "US$",
+         "USD",
+         "\u0449.\u0434."
+      ]
+   },
+   "UYU": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$U",
+         "$UY",
+         "UY$",
+         "UYU"
+      ]
+   },
+   "UZS": {
+      "decimals": 0,
+      "symbols": [
+         "UZS",
+         "so\u02bbm",
+         "\u0441\u045e\u043c"
+      ]
+   },
+   "VEF": {
+      "decimals": 2,
+      "symbols": [
+         "Bs",
+         "Bs.",
+         "BsF",
+         "VEF"
+      ]
+   },
+   "VND": {
+      "decimals": 0,
+      "symbols": [
+         "VND",
+         "\u20ab"
+      ]
+   },
+   "VUV": {
+      "decimals": 0,
+      "symbols": [
+         "VT",
+         "VUV"
+      ]
+   },
+   "WST": {
+      "decimals": 2,
+      "symbols": [
+         "WS$",
+         "WST"
+      ]
+   },
+   "XAF": {
+      "decimals": 0,
+      "symbols": [
+         "FCFA",
+         "XAF"
+      ]
+   },
+   "XCD": {
+      "decimals": 2,
+      "symbols": [
+         "$",
+         "$EC",
+         "EC$",
+         "XCD"
+      ]
+   },
+   "XOF": {
+      "decimals": 0,
+      "symbols": [
+         "CFA",
+         "XOF",
+         "\u0dc3\u0dd2\u0dc6\u0dca\u0d91"
+      ]
+   },
+   "XPF": {
+      "decimals": 0,
+      "symbols": [
+         "CFP",
+         "CFPF",
+         "F CFP",
+         "FCFP",
+         "XPF"
+      ]
+   },
+   "YER": {
+      "decimals": 0,
+      "symbols": [
+         "YER",
+         "\u0631.\u064a.\u200f"
+      ]
+   },
+   "ZAR": {
+      "decimals": 2,
+      "symbols": [
+         "R",
+         "ZAR"
+      ]
+   },
+   "ZMW": {
+      "decimals": 2,
+      "symbols": [
+         "K",
+         "Kw",
+         "ZK",
+         "ZMW"
+      ]
+   }
+}
