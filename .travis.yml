@@ -1,0 +1,23 @@
+language: python
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7-dev"
+
+
+install:
+  - pip install -r requirements/ci.txt
+  - pip install codecov
+
+
+script:
+  - pytest --cov money_parser ./tests ./money_parser --flake8
+  - python setup.py check -rm
+  - if python -c "import sys; sys.exit(sys.version_info < (3,6))"; then
+        python setup.py check -s;
+    fi
+
+
+after_success:
+  - codecov
