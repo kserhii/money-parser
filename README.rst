@@ -1,6 +1,13 @@
 Money Parser
 ============
 
+.. image:: https://api.travis-ci.org/kserhii/money-parser.svg?branch=master
+    :target:  https://travis-ci.org/kserhii/money-parser
+    :align: right
+
+.. image:: https://codecov.io/gh/kserhii/money-parser/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/kserhii/money-parser
+
 .. image:: https://badge.fury.io/py/money-parser.svg
     :target: https://badge.fury.io/py/money-parser
 
@@ -150,6 +157,9 @@ Source code
 -----------
 
 The project is hosted on GitHub_
+
+The library uses `Travis <https://travis-ci.org/kserhii/money-parser>`_ for
+Continuous Integration.
 
 Authors and License
 -------------------
