@@ -28,7 +28,7 @@ class CurrencyInfo:
 
     """
     _curr_info = None
-    _currency_db_file = Path('data/currency.json')
+    _currency_db_file = Path(__file__).parent.parent / 'data' / 'currency.json'
 
     def __init__(self):
         cls = self.__class__
@@ -49,8 +49,10 @@ class CurrencyInfo:
 
         :return OrderDict[str, dict]:
         """
+        # TODO: clean \xa0 when load
+        curr_file = cls._currency_db_file
         try:
-            with cls._currency_db_file.open() as cf:
+            with curr_file.open() as cf:
                 return OrderedDict(
                     sorted(json.load(cf).items(), key=lambda item: item[0]))
 
@@ -59,11 +61,11 @@ class CurrencyInfo:
                 IsADirectoryError,
                 UnicodeDecodeError) as err:
             raise RuntimeError(
-                'Required "currency.json" file not found!') from err
+                'Required "{}" file not found!'.format(curr_file)) from err
 
         except json.JSONDecodeError as err:
             raise RuntimeError(
-                'Error decode "currency.json" file!') from err
+                'Error decode "{}" file!'.format(curr_file)) from err
 
     def codes(self):
         """List of currency codes formatted according to the iso 4217.
