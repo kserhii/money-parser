@@ -6,8 +6,8 @@ __version__ = '0.0.1'
 __all__ = ('price_str', 'price_dec',)
 
 
-_CLEANED_PRICE_RE = re.compile('[+-]?(?:\d{1,3}[.,]?)+')
-_FRACTIONAL_PRICE_RE = re.compile('^([\d.,]+)[.,](\d{1,2})$')
+_CLEANED_PRICE_RE = re.compile(r'[+-]?(?:\d{1,3}[.,\']?)*\d')
+_FRACTIONAL_PRICE_RE = re.compile(r'^([\d.,\']+)[.,](\d{1,2})$')
 
 _not_defined = object()
 
@@ -54,7 +54,7 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
             'Wrong raw price type "{price_type}" '
             '(expected type "str")'.format(price_type=type(raw_price)))
 
-    price = re.sub('\s', '', raw_price)
+    price = re.sub(r'\s', '', raw_price)
     cleaned_price = _CLEANED_PRICE_RE.findall(price)
 
     if len(cleaned_price) == 0:
@@ -68,9 +68,6 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
             'more than one price value'.format(price=raw_price))
 
     price = cleaned_price[0]
-
-    # clean truncated decimal (e.g. 99. -> 99)
-    price = price.rstrip('.,')
 
     # get sign
     sign = ''
@@ -86,7 +83,7 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
         integer, fraction = price, ''
 
     # leave only digits in the integer part of the price
-    integer = re.sub('\D', '', integer)
+    integer = re.sub(r'\D', '', integer)
 
     # remove leading zeros (e.g. 007 -> 7, but 0.1 -> 0.1)
     integer = integer.lstrip('0')
