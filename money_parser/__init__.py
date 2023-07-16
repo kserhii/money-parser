@@ -12,7 +12,7 @@ _FRACTIONAL_PRICE_RE = re.compile('^([\d.,]+)[.,](\d{1,2})$')
 _not_defined = object()
 
 
-def price_str(raw_price, default=_not_defined, dec_point='.'):
+def price_str(raw_price, default=_not_defined, dec_point='.', return_original=False):
     """Search and clean price value.
 
     Convert raw price string presented in any localization
@@ -40,7 +40,8 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
     :param str raw_price: string that contains price value.
     :param default: value that will be returned if raw price not valid.
     :param str dec_point: symbol that separate integer and fractional parts.
-    :return: cleaned price string.
+    :param bool return_original: if true returns a tuple with the cleaned price and the original format.
+    :return: cleaned price string. If return_original eq True, returns a tuple with the cleaned price and the original format.
     :raise ValueError: error if raw price not valid and default value not set.
     """
     def _error_or_default(err_msg):
@@ -68,6 +69,10 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
             'more than one price value'.format(price=raw_price))
 
     price = cleaned_price[0]
+
+    #checks if original should be returned
+    if return_original:
+        original = price
 
     # clean truncated decimal (e.g. 99. -> 99)
     price = price.rstrip('.,')
@@ -98,7 +103,7 @@ def price_str(raw_price, default=_not_defined, dec_point='.'):
     if fraction:
         price = ''.join((price, dec_point, fraction))
 
-    return price
+    return (price, original) if return_original else price
 
 
 def price_dec(raw_price, default=_not_defined):
